@@ -37,6 +37,6 @@ SELECT GovernmentForm, HeadOfState FROM  country WHERE LocalNAme = 'Belarus';
 Republic	Aljaksandr Lukašenka
 
 ** Opgave 10 **
-SELECT * FROM  country ORDER BY Name;
-AFG
+SELECT * FROM  country ORDER BY Name DESC;
+ZWE
 
