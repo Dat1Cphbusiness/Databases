@@ -1,1 +1,42 @@
+** SELECT **
+
 ** Opgave 1 **
+SELECT Name FROM city WHERE CountryCode = 'MUS';
+Port-Louis, Beau Bassin-Rose Hill, Vacoas-Phoenix
+
+** Opgave 2 **
+SELECT * FROM city WHERE Population < 20000;
+54
+
+** Opgave 3 ** 
+SELECT * FROM city WHERE CountryCode = 'BRA';
+250
+
+** Opgave 4 **
+SELECT * FROM city WHERE CountryCode = 'BRA' AND Population > 100000;
+216
+
+** Opgave 5 **
+SELECT name FROM country WHERE Code = 'KHM';
+Cambodia
+
+** Opgave 6 **
+SELECT * FROM country WHERE Continent = 'North America';
+37
+
+** Opgave 7 **
+SELECT * FROM country WHERE Continent = 'South America' OR Continent = 'North America';
+51
+
+** Opgave 8 **
+SELECT * FROM country WHERE Continent = 'Europe' AND NOT Region = 'Southern Europe';
+31
+
+** Opgave 9 **
+SELECT GovernmentForm, HeadOfState FROM  country WHERE LocalNAme = 'Belarus';
+Republic	Aljaksandr Lukašenka
+
+** Opgave 10 **
+SELECT * FROM  country ORDER BY Name;
+AFG
+
