@@ -66,10 +66,11 @@ DELETE FROM city WHERE ID = '5000'
 
 ** Opgave 23 **
 SELECT country.name, countrylanguage.Language FROM country JOIN countrylanguage ON country.Code = countrylanguage.CountryCode WHERE country.Name = 'Brazil'
+German, Indian Language, Italian, Japanese, Portuguese
 
 ** Opgave 24 **
 SELECT city.Name, countryLanguage.Language FROM city JOIN countryLanguage ON city.CountryCode = countrylanguage.CountryCode WHERE countryLanguage.IsOfficial = 'T' AND city.Name = 'Kabul';
- 
+Dari, Pashto
 
 
 
