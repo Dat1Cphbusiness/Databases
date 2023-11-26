@@ -63,12 +63,30 @@ DELETE FROM city WHERE ID = '5000'
 ** JOIN **
 
 ** Opgave 15 **
+SELECT city.Name FROM city JOIN country ON city.CountryCode = country.Code WHERE country.Name = 'Australia';
+Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, Gold Coast, Newcastle, Central Coast, Wollongong, Hobart, Geelong, Townsville, Cairns
 
-** Opgave 23 **
+** Opgave 16 **
+SELECT city.Name FROM city JOIN country ON city.CountryCode = country.Code WHERE country.Name = 'Australia' AND city.Population > 1000000;
+Sydney, Melbourne, Brisbane, Perth
+
+** Opgave 17 **
+SELECT city.District FROM city JOIN country ON city.CountryCode = country.Code WHERE country.Name = 'Angola'
+Luanda, Huambo, Benguela, Benguela, Namibe
+
+** Opgave 18 **
+SELECT countrylanguage.Language FROM countrylanguage JOIN country ON countrylanguage.CountryCode = country.Code WHERE country.name = 'Finland' 
+Estonian, Finnish, Russian, Saame, Swedish
+
+** Opgave 19 **
+SELECT countrylanguage.Language FROM countrylanguage JOIN country ON countrylanguage.CountryCode = country.Code WHERE country.name = 'Finland' AND countrylanguage.IsOfficial = 'T'
+Finnish, Swedish
+
+** Opgave 20 **
 SELECT country.name, countrylanguage.Language FROM country JOIN countrylanguage ON country.Code = countrylanguage.CountryCode WHERE country.Name = 'Brazil'
 German, Indian Language, Italian, Japanese, Portuguese
 
-** Opgave 24 **
+** Opgave 21 **
 SELECT city.Name, countryLanguage.Language FROM city JOIN countryLanguage ON city.CountryCode = countrylanguage.CountryCode WHERE countryLanguage.IsOfficial = 'T' AND city.Name = 'Kabul';
 Dari, Pashto
 
