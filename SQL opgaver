@@ -1,1 +1,31 @@
+** SELECT **
+
 ** Opgave 1 **
+Hvad er navnene på de byer, der ligger i Mauritius (CountryCode MUS)?
+
+** Opgave 2 **
+Hvor mange byer har et indbyggertal under 20.000?
+
+** Opgave 3 ** 
+Hvor mange byer ligger der i Brazilien?
+
+** Opgave 4 **
+Hvor mange byer ligger der i Brazilien, som har et indbyggertal over 100.000?
+
+** Opgave 5 **
+Hvad er navnet på landet med Code 'KHM'?
+
+** Opgave 6 ** 
+Hvor mange lande ligger der i Nordamerika?
+
+** Opgave 7 ** '
+Hvor mange lande ligger der tilsammen i Nord- og Sydamerika?
+
+** Opgave 8 **
+Hvor mange lande ligger der i Europa, som IKKE er en del af Sydeuropa?
+
+** Opgave 9 **
+Hvad er styreformen og navnet på statsoverhovedet i landet, der har det lokale navn Belarus?
+
+** Opgave 10 ** 
+Hvad er landekoden for det land, der kommer først alfabetisk (hint: brug ORDER BY)?
