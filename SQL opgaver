@@ -28,4 +28,4 @@ Hvor mange lande ligger der i Europa, som IKKE er en del af Sydeuropa?
 Hvad er styreformen og navnet på statsoverhovedet i landet, der har det lokale navn Belarus?
 
 ** Opgave 10 ** 
-Hvad er landekoden for det land, der kommer først alfabetisk (hint: brug ORDER BY)?
+Hvad er landekoden for det land, der kommer sidst alfabetisk (hint: brug ORDER BY)?
