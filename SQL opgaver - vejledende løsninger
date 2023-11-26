@@ -40,3 +40,36 @@ Republic	Aljaksandr Lukašenka
 SELECT * FROM  country ORDER BY Name DESC;
 ZWE
 
+** INSERT **
+
+** Opgave 11 **
+INSERT INTO city (Name, CountryCode, District, Population) VALUES ('Silkeborg', 'DNK', 'Midtjylland', '97368');
+
+** Opgave 12 **
+INSERT INTO city  VALUES ('5000', 'Søborg', 'DNK', 'Sjælland', '70000');
+
+** UPDATE **
+
+** Opgave 13 **
+UPDATE country SET GovernmentForm = 'Constitutional Monarchy' WHERE Name = 'France';
+eller med Safe Update slået til (så vi skal bruge primærnøglen):
+UPDATE country SET GovernmentForm = 'Constitutional Monarchy' WHERE Code = 'FRA';
+
+** Opgave 14 **
+DELETE FROM city WHERE Name = 'Søborg'
+eller med Safe Update slået til:
+DELETE FROM city WHERE ID = '5000'
+
+** JOIN **
+
+** Opgave 15 **
+
+** Opgave 23 **
+SELECT country.name, countrylanguage.Language FROM country JOIN countrylanguage ON country.Code = countrylanguage.CountryCode WHERE country.Name = 'Brazil'
+
+** Opgave 24 **
+SELECT city.Name, countryLanguage.Language FROM city JOIN countryLanguage ON city.CountryCode = countrylanguage.CountryCode WHERE countryLanguage.IsOfficial = 'T' AND city.Name = 'Kabul';
+ 
+
+
+
