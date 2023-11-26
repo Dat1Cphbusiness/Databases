@@ -29,3 +29,29 @@ Hvad er styreformen og navnet på statsoverhovedet i landet, der har det lokale 
 
 ** Opgave 10 ** 
 Hvad er landekoden for det land, der kommer sidst alfabetisk (hint: brug ORDER BY)?
+
+** INSERT **
+
+** Opgave 11 **
+Indsæt en by i tabellen city og lad den få et automatisk ID
+
+** Opgave 12 ** 
+Indsæt en by i tabellen city og giv den et ID
+
+** UPDATE og DELETE**
+
+** Opgave 13 **
+Sæt styreformen i Frankrig til konstitutionelt monarki
+
+** Opgave 14 **
+Slet den by, du oprettede i opgave 12
+
+** JOIN **
+
+** Opgave 15 **
+
+** Opgave 23 ** 
+Hvilke sprog taler man i Brasilien?
+
+** Opgave 24 **
+Hvilke officielle sprog tales der i Kabul?
